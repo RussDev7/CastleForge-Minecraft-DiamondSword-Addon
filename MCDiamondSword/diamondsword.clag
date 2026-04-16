@@ -11,7 +11,7 @@ $DESCRIPTION2: Fast melee weapon.
 ; brand-new synthetic item ID.
 ; ==========================================================
 $AS_NEW_ITEM: false
-$SLOT_ID:     Knife
+$SLOT_ID:     DiamondKnife
 
 ; ==========================================================
 ; Assets
