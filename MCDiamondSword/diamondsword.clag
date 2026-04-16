@@ -1,0 +1,51 @@
+Melee
+$NAME:         Diamond Sword
+$AUTHOR:       MC (Template)
+$DESCRIPTION1: A sharp diamond blade.
+$DESCRIPTION2: Fast melee weapon.
+
+; ==========================================================
+; Slot / Item Behavior
+; ----------------------------------------------------------
+; Overrides the vanilla Knife slot instead of creating a
+; brand-new synthetic item ID.
+; ==========================================================
+$AS_NEW_ITEM: false
+$SLOT_ID:     Knife
+
+; ==========================================================
+; Assets
+; ----------------------------------------------------------
+; MODEL:
+; - Path relative to the pack folder.
+; - Omit the .xnb extension.
+;   (ex: models\DiamondSword -> <Pack>\models\DiamondSword.xnb)
+; ==========================================================
+$MODEL: models\DiamondSword
+
+; ==========================================================
+; Optional UI Icon Override
+; ----------------------------------------------------------
+; PNG icon:
+; - ICON: Path relative to pack folder.
+; - ICON_ENABLED: Defaults true if ICON is present.
+; ==========================================================
+$ICON:         icon.png
+$ICON_ENABLED: true
+
+; ==========================================================
+; Behavior
+; ==========================================================
+$AUTOMATIC: false
+
+; ==========================================================
+; Damage / Handling
+; ----------------------------------------------------------
+; Best-effort melee stat overrides. These only apply if your
+; runtime supports melee tuning through the shared addon fields.
+; ==========================================================
+$DAMAGE:             12
+$SELF_DAMAGE:        0
+$INACCURACY_DEG:     0
+$BULLETS_PER_SECOND: 0
+$RECOIL_DEG:         0
