@@ -136,10 +136,10 @@ Reserved for future custom swing/hit/audio additions if you decide to extend the
 ## Visual highlights
 
 | Preview | What it demonstrates |
-|----------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| ![Main Preview](Assets/Preview.png)                      | **Main addon preview** — the Minecraft-inspired sword showcased in-game.                       |
-| ![Inventory Placeholder](_Images/InventoryPreview.png)   | **Icon visibility** — show how the custom icon looks in inventory or hotbar UI.                |
-| ![Comparison Placeholder](_Images/VanillaComparison.png) | **Before/after comparison** — compare the vanilla knife slot against the pack-enabled version. |
+|---------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| ![Main Preview](Assets/Preview.png)                     | **Main addon preview** — the Minecraft-inspired sword showcased in-game.                       |
+| ![Inventory Placeholder](Assets/InventoryPreview.png)   | **Icon visibility** — show how the custom icon looks in inventory or hotbar UI.                |
+| ![Comparison Placeholder](Assets/VanillaComparison.png) | **Before/after comparison** — compare the vanilla knife slot against the pack-enabled version. |
 
 ---
 
